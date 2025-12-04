@@ -1,0 +1,3 @@
+# .github/terminology_list.txt content
+# Format: FORBIDDEN_TERM|SUGGESTED_REPLACEMENT
+Ed-Fi API Standard|Ed-Fi API Specifications

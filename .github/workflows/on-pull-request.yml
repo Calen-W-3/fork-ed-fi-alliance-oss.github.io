@@ -6,6 +6,7 @@ on:
   pull_request:
     branches:
       - main
+      - terminology_script
   workflow_dispatch:
 
 concurrency:
@@ -73,3 +74,17 @@ jobs:
         if: success()
         uses: github/codeql-action/analyze@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169 # v3.28.0
 
+  comprehensive-terminology-scan:
+    name: Full Repo Terminology Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        # No need for fetch-depth: 0 if scanning the whole repo, but still good practice
+
+      - name: Make Script Executable
+        run: chmod +x .github/check_repo_terminology.sh
+
+      - name: Run Comprehensive Terminology Check
+        # This will fail the check if any forbidden words are found in the entire repo
+        run: .github/check_repo_terminology.sh
