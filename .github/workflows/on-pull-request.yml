@@ -76,20 +76,17 @@ jobs:
 
         #Terminology checking script
   check_terminology:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout Repository
-          uses: actions/checkout@v4
-          with:
-            # Required to allow 'git diff' to see the branch history
-            fetch-depth: 0 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-        - name: Install jq
-          run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-        - name: Set Script Permissions
-          run: chmod +x .github/workflows/term_checker.sh
-        
-        - name: Run Terminology Checker
-          # This will fail the build if forbidden terms are found
-          run: .github/workflows/term_checker.sh
+      - name: Set Script Permissions
+        run: chmod +x ./.github/workflows/term_checker.sh
+      
+      - name: Run Terminology Checker
+        # We run it from the root directory so it can scan everything
+        run: ./.github/workflows/term_checker.sh
