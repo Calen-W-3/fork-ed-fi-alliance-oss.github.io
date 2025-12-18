@@ -1,6 +1,6 @@
 # Database Deploy Tool
 
-The Database Deploy Tool is a utility for the Ed-Fi Technical Suite 3 databases.
+The Database Deploy Tool is a utility for the Ed-Fi Technology Suite 3 databases.
 The utility supports the deployment of ODS databases in both the SQL Server 2019
 and PostgreSQL 16 platforms, and is designed to work with Ed-Fi ODS / API v3.3
 and later.
