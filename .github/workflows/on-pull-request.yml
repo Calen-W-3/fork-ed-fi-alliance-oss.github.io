@@ -88,8 +88,8 @@ jobs:
           run: sudo apt-get update && sudo apt-get install -y jq
 
         - name: Set Script Permissions
-          run: chmod +x term_checker.sh
+          run: chmod +x .github/term_checker.sh
         
         - name: Run Terminology Checker
           # This will fail the build if forbidden terms are found
-          run: ./term_checker.sh
+          run: .github/term_checker.sh
