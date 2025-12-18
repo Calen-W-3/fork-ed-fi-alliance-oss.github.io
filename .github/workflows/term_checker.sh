@@ -13,7 +13,7 @@ if [ -z "$CHANGED_FILES" ]; then
 fi
 
 # Load the policy
-POLICY_FILE="term_policy.json"
+POLICY_FILE=".github/workflows/term_policy.json"
 
 # Initialize error flag
 ERROR_FOUND=false
