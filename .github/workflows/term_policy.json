@@ -1,0 +1,10 @@
+[
+  {
+    "excluded_term": "Ed-Fi API Standard",
+    "suggested_replacement": "Ed-Fi Specification"
+  },
+  {
+    "excluded_term": "Ed-Fi Technical Suite",
+    "suggested_replacement": "Ed-Fi Technology Suite"
+  }
+]

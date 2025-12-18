@@ -73,3 +73,22 @@ jobs:
         if: success()
         uses: github/codeql-action/analyze@48ab28a6f5dbc2a99bf1e0131198dd8f1df78169 # v3.28.0
 
+        #Terminology checking script
+  check_terminology:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout Repository
+          uses: actions/checkout@v4
+          with:
+            # Required to allow 'git diff' to see the branch history
+            fetch-depth: 0 
+
+        - name: Install jq
+          run: sudo apt-get update && sudo apt-get install -y jq
+
+        - name: Set Script Permissions
+          run: chmod +x term_checker.sh
+        
+        - name: Run Terminology Checker
+          # This will fail the build if forbidden terms are found
+          run: ./term_checker.sh
