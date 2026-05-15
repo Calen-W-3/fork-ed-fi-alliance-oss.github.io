@@ -478,9 +478,9 @@ Just a few more tasks to complete your installation:
   select **Internet Information Services (IIS)**, and press **Enter**.
 * **Right-click** on the server (alternatively, you can right-click the EdFi
   web site), and select **Stop**.
-  ![IIS manager](https://edfi.atlassian.net/wiki/download/attachments/25493615/image2021-2-12_17-5-39.png?version=1&modificationDate=1699456100327&cacheVersion=1&api=v2)
+  ![IIS manager](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2021-2-12_17-5-39.png)
 * **Right-click** the server (or EdFi website) again and select **Start**.
-![IIS manager start](https://edfi.atlassian.net/wiki/download/thumbnails/25493615/image2021-2-12_17-7-5.png?version=1&modificationDate=1699456100337&cacheVersion=1&api=v2&width=466&height=555)
+![IIS manager start](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2021-2-12_17-7-5.png)
 
 You are now ready to use the Ed-Fi ODS / API. The following URLs are available:
 

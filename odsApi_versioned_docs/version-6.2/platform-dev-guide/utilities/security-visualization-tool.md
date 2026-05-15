@@ -32,7 +32,7 @@ not detected in the default installation path.
   \\Ed-Fi-ODS\\Utilities\\GenerateSecurityGraphs\\GenerateSecurityGraphs\\bin\\Debug\\net8.0.
 * Run `GenerateSecurityGraphs.exe --help` to view the parameters that can be
   passed to the application.
-  ![Help Command Output](https://edfi.atlassian.net/wiki/download/attachments/22774402/image2022-3-17_18-2-8.png?version=1&modificationDate=1647558128177&cacheVersion=1&api=v2)
+  ![Help Command Output](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2022-3-17_18-2-8.png)
 
   ```powershell
   PS D:\Ed-Fi-ODS\Utilities\GenerateSecurityGraphs\GenerateSecurityGraphs> .\bin\Debug\net8.0\GenerateSecurityGraphs.exe --help

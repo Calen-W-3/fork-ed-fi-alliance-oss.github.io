@@ -312,7 +312,7 @@ website are provided in the sections that follow.
         apply.  You can create a new self-signed certificate or use an existing
         one.
 
-        ![SSL certificate](https://edfi.atlassian.net/wiki/download/thumbnails/25493671/image2022-12-7_15-40-25.png?version=1&modificationDate=1699456107990&cacheVersion=1&api=v2&width=520&height=416)
+        ![SSL certificate](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2022-12-7_15-40-25.png)
 
 ### EdFi.Ods.WebApi
 
@@ -415,7 +415,7 @@ Prerequisites:
         one. Ed-Fi deployment scripts generate the self-signed certificate
         Ed-Fi-ODS which is typically what is used for local IIS deployments.
 
-        ![SSL certificate](https://edfi.atlassian.net/wiki/download/thumbnails/25493671/image2022-12-7_15-40-25.png?version=1&modificationDate=1699456107990&cacheVersion=1&api=v2&width=520&height=416)
+        ![SSL certificate](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2022-12-7_15-40-25.png)
 
 3. All dependent databases are in place.
 
@@ -540,7 +540,7 @@ For Windows Server / IIS installations. Prerequisites:
         one. Ed-Fi deployment scripts generate the self-signed certificate
         Ed-Fi-ODS which is typically what is used for local IIS deployments.
 
-        ![SSL certificate](https://edfi.atlassian.net/wiki/download/thumbnails/25493671/image2022-12-7_15-40-25.png?version=1&modificationDate=1699456107990&cacheVersion=1&api=v2&width=520&height=416)
+        ![SSL certificate](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2022-12-7_15-40-25.png)
 
 3. All dependent databases are in place.
 
@@ -570,7 +570,7 @@ Steps to deploy the application:
 
 9. The application is ready to use.
 
-    ![Ready to use](https://edfi.atlassian.net/wiki/download/thumbnails/25493671/image-2023-6-5_10-41-38.png?version=1&modificationDate=1699456108123&cacheVersion=1&api=v2&width=1280&height=547)
+    ![Ready to use](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image-2023-6-5_10-41-38.png)
 
 App Settings:
 

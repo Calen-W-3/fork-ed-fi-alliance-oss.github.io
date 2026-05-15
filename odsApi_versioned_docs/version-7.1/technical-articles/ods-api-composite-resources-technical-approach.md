@@ -153,7 +153,7 @@ and D, they have no permissions to read Resource C (as depicted by the
 the results (and any resources that are structurally dependent on it, even if
 authorization would have been granted on the dependent resources).
 
-![alt text](https://edfi.atlassian.net/wiki/download/attachments/25493783/Composite-Fig-01.png?version=1&modificationDate=1699456136210&cacheVersion=1&api=v2)
+![alt text](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/Composite-Fig-01.png)
 
 **Example of the effects of Profiles, Authorization on a Composite Resource
 Response**

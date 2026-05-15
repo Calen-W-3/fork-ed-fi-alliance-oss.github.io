@@ -6,7 +6,7 @@ Rather than talk about data exchanges, let's see some in action. The following b
 
 These activities use a browser-based toolkit called Swagger UI. This toolkit allows your browser to send requests to the API and receive responses from the API. You can access the **Ed-Fi ODS / API sandbox** at [https://api.ed-fi.org/](https://api.ed-fi.org/). You can [read more about Swagger UI here](https://swagger.io/tools/swagger-ui/).
 
-![Swagger Screenshot](https://edfi.atlassian.net/wiki/download/thumbnails/22905157/swagger.png?version=1&modificationDate=1569248123083&cacheVersion=1&api=v2&width=1217&height=704)
+![Swagger Screenshot](https://edfidocs.blob.core.windows.net/$web/img/getting-started/provider-playbook/specifics-by-provider-type/assessment-providers/assessment-providers-implementation/assessment-providers-sandbox/swagger.png)
 
 :::warning
 These activities use the Ed-Fi ODS implementation of the Assessment API. Note that this implementation is only one possible implementation of the API and not the API itself (see [Overview of Ed-Fi Standards and Technology](../../../../project-planning/overview-of-ed-fi-standards-and-technology.md) on this point).

@@ -94,7 +94,7 @@ We're going to add seven new .metaed source files to the project we just created
 
 Now we'll add two MetaEd source files to the DomainEntity folder. **Right-click** on the folder **DomainEntity**, and select New File.
 
-![Add Domain Entity file](https://edfi.atlassian.net/wiki/download/attachments/25493733/NewFile.png?version=1&modificationDate=1699456119950&cacheVersion=1&api=v2)
+![Add Domain Entity file](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/NewFile.png)
 
 Name the new file `PostSecondaryOrganization.metaed` to match the name of the new entity to be created.
 
@@ -366,11 +366,11 @@ To add a project to your Ed-Fi-Ods Visual Studio Solution, **right-click** on th
 
 Search and select the **Ed-Fi API Extensions Project Template** option and Click **Next**.
 
-![Create Extension Project](https://edfi.atlassian.net/wiki/download/attachments/25493733/vs-create%20extension%20project.png?version=1&modificationDate=1699456120003&cacheVersion=1&api=v2)
+![Create Extension Project](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/vs-create%20extension%20project.png)
 
 In the Project Name field, enter `EdFi.Ods.Extensions.SampleStudentTranscript` and click **Create**.
 
-![image](https://edfi.atlassian.net/wiki/download/attachments/25493733/vs-create%20extension%20project2.png?version=1&modificationDate=1699456119993&cacheVersion=1&api=v2)
+![image](https://edfi.atlassian.net/wiki/download/thumbnails/25493733/vs-create%20extension%20project2.png?version=1&modificationDate=1699456119993&cacheVersion=1&api=v2&width=900&height=597)
 
 :::info
 To ensure MetaEd outputs are correctly deployed to ODS / API extension project, the last section of the project name should match the namespace you provided in Step 2.c with the first character in upper case.
@@ -392,7 +392,7 @@ In this step, we'll integrate the extension into the solution.
 
 Locate the **EdFi.Ods.WebApi** project, within the "Entry Points" folder. **Right-click**, select **Add** > **Project Reference...**, then select the **EdFi.Ods.Extensions.SampleStudentTranscript** project.
 
-![Add Reference](https://edfi.atlassian.net/wiki/download/thumbnails/25493733/vs-extension%20add%20reference.png?version=1&modificationDate=1699456120023&cacheVersion=1&api=v2&width=1000&height=542)
+![Add Reference](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/vs-extension%20add%20reference.png)
 
 #### 4d.2
 
@@ -412,7 +412,7 @@ correct locations for the ODS / API project.
 
 Ensure that your Ed-Fi ODS / API source directory is set properly in the MetaEd Extension settings. In VS Code open Settings **Ctrl+,** and switch to the Workspace tab, find the MetaEd extension and update the "Ods Api Deployment Directory" to point to the folder that contains the Ed-Fi-ODS and Ed-Fi-ODS-Implementation folders.
 
-![MetaEd extension settings](https://edfi.atlassian.net/wiki/download/attachments/25493733/Settings.png?version=1&modificationDate=1699456119813&cacheVersion=1&api=v2)
+![MetaEd extension settings](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/Settings.png)
 
 ### Step 5b. Deploy Your Extended Artifacts
 
@@ -425,7 +425,7 @@ previous work before running deployment.
 
 Deploy by clicking **Deploy** on the VSCode menu
 
-![image](https://edfi.atlassian.net/wiki/download/attachments/25493733/Deploy.png?version=1&modificationDate=1699456119803&cacheVersion=1&api=v2)
+![image](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/Deploy.png)
 
 This will run a new build of all artifacts, and the artifacts required for your
 Extended ODS / API project will be copied over to the correct locations.
@@ -642,14 +642,14 @@ section of this documentation.
 To add a project to your Ed-Fi-Ods Visual Studio Solution, **right-click** on
 the Ed-Fi Extensions Folder. Select **Add** > **New Project**.
 
-![image](https://edfi.atlassian.net/wiki/download/thumbnails/25493733/VisualStudio-AddNewProject.png?version=1&modificationDate=1699456120313&cacheVersion=1&api=v2&width=572&height=231)
+![image](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/VisualStudio-AddNewProject.png)
 
 #### A2.2
 
 Search and select the **Ed-Fi API Extensions Project Template** option and
 click **Next**.
 
-![Create Extension Project](https://edfi.atlassian.net/wiki/download/thumbnails/25493733/vs-create%20extension%20project.png?version=1&modificationDate=1699456120003&cacheVersion=1&api=v2&width=900&height=597)
+![Create Extension Project](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/vs-create%20extension%20project.png)
 
 In the Project Name field,
 enter `EdFi.Ods.Extensions.SampleStudentTranscript` and
@@ -669,7 +669,7 @@ file to `Marker_EdFi_Ods_Extensions_SampleStudentTranscript.cs`.
 **3.2.** When prompted choose to rename all references to the code
 element `Marker_EdFi_Ods_Extensions_ExtensionName`.
 
-![image](https://edfi.atlassian.net/wiki/download/attachments/25493733/extension-rename-marker-confirm.png?version=1&modificationDate=1699456120263&cacheVersion=1&api=v2)
+![image](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/extension-rename-marker-confirm.png)
 
 ### Step A4. Integrate Extension into the Solution
 
@@ -681,7 +681,7 @@ Locate the **EdFi.Ods.WebApi** project, within the "Entry Points"
 folder. **Right-click**, select **Add** > **Reference...**, then select
 the **EdFi.Ods.Extensions.SampleStudentTranscript** project.
 
-![Add Reference](https://edfi.atlassian.net/wiki/download/attachments/25493733/vs-extension%20add%20reference.png?version=1&modificationDate=1699456120023&cacheVersion=1&api=v2)
+![Add Reference](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/vs-extension%20add%20reference.png)
 
 #### A4.2
 

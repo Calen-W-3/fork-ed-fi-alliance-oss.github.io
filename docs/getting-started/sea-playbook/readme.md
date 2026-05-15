@@ -16,8 +16,8 @@ The Playbook is published in both a PowerPoint and PDF format. A PowerPoint form
 
 ### Download the Playbook
 
-* PowerPoint Version: [SEA Ed-Fi Overview and Implementation Playbook.pptx](https://edfi.atlassian.net/wiki/download/attachments/22905309/SEA%20Ed-Fi%20Overview%20and%20Implementation%20Playbook.pptx?api=v2)
-* PDF Version: [SEA Ed-Fi Overview and Implementation Playbook.pdf](https://edfi.atlassian.net/wiki/download/attachments/22905309/SEA%20Ed-Fi%20Overview%20and%20Implementation%20Playbook.pdf?api=v2)
+* PowerPoint Version: [SEA Ed-Fi Overview and Implementation Playbook.pptx](https://edfidocs.blob.core.windows.net/$web/assets/getting-started/sea-playbook/SEA%20Ed-Fi%20Overview%20and%20Implementation%20Playbook.pptx)
+* PDF Version: [SEA Ed-Fi Overview and Implementation Playbook.pdf](https://edfidocs.blob.core.windows.net/$web/assets/getting-started/sea-playbook/SEA%20Ed-Fi%20Overview%20and%20Implementation%20Playbook.pdf)
 
 ## Ed-Fi Academy Content
 

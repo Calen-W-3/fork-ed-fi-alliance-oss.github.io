@@ -42,7 +42,7 @@ collections).
 The diagram below depicts the composition process of a possible
 Enrollment Section composite resource:
 
-![Sample Composite](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/Sample-Composite.png)
+![Sample Composite](https://edfi.atlassian.net/wiki/download/attachments/25493651/Sample-Composite.png?version=1&modificationDate=1699456105090&cacheVersion=1&api=v2)
 
 ## Composite Definition
 
@@ -117,7 +117,7 @@ Note: The composites feature is now versioned independently of the primary API.
 The `name` attribute is used in the routes, and is also normalized (introducing spaces, if
 appropriate) for display in the API Section drop-down list in the Swagger UI:
 
-![API Section](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/API%20Section.png)
+![API Section](https://edfi.atlassian.net/wiki/download/attachments/25493651/API%20Section.png?version=1&modificationDate=1699456105107&cacheVersion=1&api=v2)
 
 ### Composite Routes and Specifications
 
@@ -233,7 +233,7 @@ The `displayName` and `flatten` attributes can be combined to create a more natu
 data is sourced through a many-to-many relationship. For example, consider the
 relationship between Section and Staff shown below:
 
-![Many-to-Many](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/Many-to-Many.png)
+![Many-to-Many](https://edfi.atlassian.net/wiki/download/attachments/25493651/Many-to-Many.png?version=1&modificationDate=1699456105100&cacheVersion=1&api=v2)
 
 Without the use of the `flatten` attribute, the composite resource would be defined as follows:
 

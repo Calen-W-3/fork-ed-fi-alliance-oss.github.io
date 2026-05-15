@@ -33,7 +33,7 @@ not detected in the default installation path.
 * Run `GenerateSecurityGraphs.exe --help` to view the parameters that can be
   passed to the application.
 
-  ![Help output](https://edfi.atlassian.net/wiki/download/attachments/25493687/image2022-3-17_18-2-8.png?version=1&modificationDate=1699456110727&cacheVersion=1&api=v2)
+  ![Help output](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2022-3-17_18-2-8.png)
 
 * Execute the tool to generate the visualizations. The example below assumes
   that you have followed the Ed-Fi ODS / API [Getting

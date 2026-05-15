@@ -8,13 +8,13 @@ From this section on, the content is mostly technical. This info applies to soft
 
 The Ed-Fi API is a "push" model for data flow, and not a "pull" model where the data provider (you) stands up or "publishes" an API.  This model is intended to be near real time, meaning it is important that the data is pushed quickly, versus waiting a long time to send.  If you are an assessment vendor this "push" model may not work for you - you can look at [Assessment Providers: Data PULL Model](../specifics-by-provider-type/assessment-providers/assessment-providers-implementation/assessment-providers-data-pull-model.md) to learn more about an alternate approach.
 
-![push model diagram](https://edfi.atlassian.net/wiki/download/thumbnails/22907299/figure2.png?version=1&modificationDate=1659385195573&cacheVersion=1&api=v2&width=300&height=106)
+![push model diagram](https://edfidocs.blob.core.windows.net/$web/img/getting-started/provider-playbook/project-planning/figure2.png)
 
 ## Data mapping
 
 The first step in building an Ed-Fi integration is to understand how the information in your application maps to the Ed-Fi Data Standard. There is likely already some overlap, for example both systems may use the term student. However, there may be semantic differences. For example, you may refer to a student's overall attendance for a specific date as their daily attendance where as the Ed-Fi Data Standard refers to this as the student's school attendance event. During this phase you are encouraged to reach out to the Ed-Fi Alliance for feedback on your data mapping.
 
-![vendor process diagram](https://edfi.atlassian.net/wiki/download/thumbnails/22907299/Vendor%20Process.png?version=1&modificationDate=1659367987197&cacheVersion=1&api=v2&width=750&height=188)
+![vendor process diagram](https://edfidocs.blob.core.windows.net/$web/img/getting-started/provider-playbook/project-planning/Vendor%20Process.png)
 
 ## Ed-Fi API client
 

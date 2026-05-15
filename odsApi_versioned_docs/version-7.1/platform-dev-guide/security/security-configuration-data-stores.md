@@ -85,4 +85,4 @@ context:
 The following ERD further outlines the entities and entity relationships in the
 `EdFi_Security` database:
 
-![Graph](https://edfi.atlassian.net/wiki/download/attachments/25493667/Security-Config-Figure-02.png?version=1&modificationDate=1699456107237&cacheVersion=1&api=v2)
+![Graph](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/Security-Config-Figure-02.png)

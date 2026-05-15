@@ -82,7 +82,7 @@ Ensure that the following components are installed:
         selections will be good for most cases.
     3. Click **OK**.
 
-    ![windows feature](https://edfi.atlassian.net/wiki/download/thumbnails/25493611/image2021-10-13_16-25-43.png?version=1&modificationDate=1699456099243&cacheVersion=1&api=v2&width=412&height=364)
+    ![windows feature](https://edfidocs.blob.core.windows.net/$web/img/reference/ods-api/image2021-10-13_16-25-43.png)
     
     **.NET 8.0 Hosting Bundle**
 

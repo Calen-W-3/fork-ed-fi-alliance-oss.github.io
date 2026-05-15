@@ -556,7 +556,7 @@ export default {
       availability: 'Available to any agency (all sizes) in the U.S.',
       documentation: {
         'Availability Statement':
-          'https://edfi.atlassian.net/wiki/download/attachments/23694066/Ed-Fi%20Certification%20-%20Implementation%20Verification%20-%20PowerSchool%20SIS%20signed.JPG?api=v2',
+          'https://edfidocs.blob.core.windows.net/$web/img/partners/2-certification/Ed-Fi%20Certification%20-%20Implementation%20Verification%20-%20PowerSchool%20SIS%20signed.JPG',
         Mappings:
           'https://edfi.atlassian.net/wiki/download/attachments/23694066/Ed-Fi%20Resources%20and%20Elements%20for%20PowerSchool%20SIS%20Base%20v221014.xlsx?api=v2',
       },
@@ -594,7 +594,7 @@ export default {
       availability: 'Available to any agency (all sizes) in the U.S.',
       documentation: {
         'Availability Statement':
-          'https://edfi.atlassian.net/wiki/download/attachments/23694066/Ed-Fi%20Certification%20-%20Implementation%20Verification%20-%20PowerSchool%20SIS%20signed.JPG?api=v2',
+          'https://edfidocs.blob.core.windows.net/$web/img/partners/2-certification/Ed-Fi%20Certification%20-%20Implementation%20Verification%20-%20PowerSchool%20SIS%20signed.JPG',
       },
       supportResources: [
         {
