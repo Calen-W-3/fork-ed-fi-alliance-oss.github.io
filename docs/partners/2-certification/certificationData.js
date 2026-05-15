@@ -338,7 +338,7 @@ export default {
       supportResources: [
         {
           name: 'Usage Statement',
-          link: 'https://edfi.atlassian.net/wiki/download/attachments/23694066/Frontline%20-%20Ed-Fi%20Usage%20Narrative.docx?version=1&modificationDate=1713283782666&cacheVersion=1&api=v2',
+          link: 'https://edfidocs.blob.core.windows.net/$web/assets/partners/certification/Frontline%20-%2001-Ed-Fi%20Badge%20Application%20-Revised.docx',
         },
         {
           name: 'Enablement & Support',
